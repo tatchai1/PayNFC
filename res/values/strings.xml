@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pay NFC</string>
+    <string name="action_settings">Settings</string>
+     <string name="refresh">Refresh</string>
+    <string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="register">Register</string>
+	<string name="email">E-mail</string>
+	<string name="phone">Phone</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="welcome">Welcome</string>
+	<string name="balance">Balance  :</string>
+	<string name="paytext">Pay</string>
+	<string name="edit">Edit User</string>
+	
+	<color name="blue">#0191B4</color>
+	<color name="white">#F8F8FF</color>
+	<!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Map</item>
+        <item >Edit User</item>
+        <item >Log Out</item>
+   <!--      <item >Log Out</item> -->
+    </string-array>
+    
+     <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+	
+</resources>

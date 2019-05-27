@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="@string/register" />  
+
+	<EditText
+         android:id="@+id/regisusername"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:textSize="30sp"
+         android:inputType="textPersonName"
+         android:textColor="@color/white"
+         android:hint="@string/username" />
+         
+    <EditText
+         android:id="@+id/regispassword"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/white"
+         android:ems="10"
+         android:textSize="30sp"
+         android:inputType="textPassword" 
+         android:hint="@string/password"/>
+	<EditText
+         android:id="@+id/regisemail"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:textSize="30sp"
+         android:inputType="text"
+         android:textColor="@color/white"
+         android:hint="@string/email" />
+	
+	<EditText
+         android:id="@+id/regisphone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="12"
+         android:textSize="30sp"
+         android:inputType="phone"
+         android:textColor="@color/white"
+         android:hint="@string/phone" />
+	
+	<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<Button
+	    android:id="@+id/btregister"
+	    android:layout_width="130dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="14dp"
+	    android:layout_marginTop="26dp"
+	    android:background="@color/white"
+	    android:onClick="onClickRegister"
+	    android:text="@string/ok" />
+
+	<Button
+	    android:id="@+id/btcancle"
+	    android:layout_width="130dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/btregister"
+	    android:layout_alignBottom="@+id/btregister"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="17dp"
+	    android:background="@color/white"
+	    android:onClick="clickBtn"
+	    android:text="@string/cancel" />
+
+	<ProgressBar
+	    android:id="@+id/progressBar5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true" />
+
+	</RelativeLayout>
+
+</LinearLayout>
